@@ -32,7 +32,7 @@ export default function Add() {
         },
             {
                 headers: {
-                    'x-apikeeda-key' : 'x1722838815097nry136664569pv',
+                    'x-apikeeda-key' : 't1724128152257bco848371423oa',
                 }
             }
         )

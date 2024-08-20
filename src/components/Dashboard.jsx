@@ -6,12 +6,12 @@ export default function Dashboard() {
 
   const [data, SetData] = useState([]);
 
-  const token = 'x1722838815097nry136664569pv';
+  const token = 't1724128152257bco848371423oa';
 
   useEffect(() => {
     axios.get('https://service.apikeeda.com/api/v1/contact-book',
       {
-        headers: { 'x-apikeeda-key' : 'x1722838815097nry136664569pv' }
+        headers: { 'x-apikeeda-key' : token }
       }
     )
       .then(function (response) {

@@ -20,7 +20,7 @@ export default function View() {
         nickName: ''
     });
 
-    const token = 'x1722838815097nry136664569pv'
+    const token = 't1724128152257bco848371423oa'
 
     useEffect(() => {
         axios.get('https://service.apikeeda.com/api/v1/contact-book', {
