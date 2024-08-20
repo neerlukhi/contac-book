@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.red{
+  color: rgb(223, 29, 29) !important;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
